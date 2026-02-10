@@ -1,0 +1,45 @@
+{
+  "patient_id": "Unique synthetic group identifier; never used as predictor",
+  "target": {
+    "name": "simulated_readmission",
+    "meaning": "Bernoulli label sampled from documented simulator, not a confirmed clinical endpoint"
+  },
+  "features": [
+    {
+      "name": "age",
+      "unit": "years (simulated)",
+      "source": "Gaussian mathematical simulator",
+      "missing": "NaN allowed if column not entirely missing"
+    },
+    {
+      "name": "length_of_stay",
+      "unit": "days (simulated)",
+      "source": "Gaussian mathematical simulator",
+      "missing": "NaN allowed if column not entirely missing"
+    },
+    {
+      "name": "prior_admissions",
+      "unit": "continuous count proxy",
+      "source": "Gaussian mathematical simulator",
+      "missing": "NaN allowed if column not entirely missing"
+    },
+    {
+      "name": "comorbidity_count",
+      "unit": "continuous count proxy",
+      "source": "Gaussian mathematical simulator",
+      "missing": "NaN allowed if column not entirely missing"
+    },
+    {
+      "name": "medication_count",
+      "unit": "continuous count proxy",
+      "source": "Gaussian mathematical simulator",
+      "missing": "NaN allowed if column not entirely missing"
+    },
+    {
+      "name": "followup_delay",
+      "unit": "days (simulated)",
+      "source": "Gaussian mathematical simulator",
+      "missing": "NaN allowed if column not entirely missing"
+    }
+  ]
+}
