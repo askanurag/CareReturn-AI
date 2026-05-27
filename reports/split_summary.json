@@ -1,0 +1,17 @@
+{
+  "train": {
+    "rows": 360,
+    "patients": 360,
+    "positive_fraction": 0.5055555555555555
+  },
+  "validation": {
+    "rows": 120,
+    "patients": 120,
+    "positive_fraction": 0.49166666666666664
+  },
+  "test": {
+    "rows": 120,
+    "patients": 120,
+    "positive_fraction": 0.43333333333333335
+  }
+}
