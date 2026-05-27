@@ -1,0 +1,209 @@
+{
+  "selection_split": "validation only",
+  "results": [
+    {
+      "config": "domain_w14_s1_n0.json",
+      "validation": {
+        "auroc": 0.6717948717948719,
+        "average_precision": 0.35035977705928445,
+        "brier": 0.14336626509705927,
+        "balanced_accuracy": 0.5,
+        "sensitivity": 0.0,
+        "specificity": 1.0,
+        "tp": 0,
+        "tn": 65,
+        "fp": 0,
+        "fn": 15,
+        "n": 80,
+        "threshold": 0.5
+      }
+    },
+    {
+      "config": "domain_w14_s1_n1.json",
+      "validation": {
+        "auroc": 0.6676923076923077,
+        "average_precision": 0.3421159619469829,
+        "brier": 0.145822788485812,
+        "balanced_accuracy": 0.5,
+        "sensitivity": 0.0,
+        "specificity": 1.0,
+        "tp": 0,
+        "tn": 65,
+        "fp": 0,
+        "fn": 15,
+        "n": 80,
+        "threshold": 0.5
+      }
+    },
+    {
+      "config": "domain_w14_s2_n0.json",
+      "validation": {
+        "auroc": 0.6363636363636364,
+        "average_precision": 0.39384920634920634,
+        "brier": 0.13769718057670413,
+        "balanced_accuracy": 0.48484848484848486,
+        "sensitivity": 0.0,
+        "specificity": 0.9696969696969697,
+        "tp": 0,
+        "tn": 32,
+        "fp": 1,
+        "fn": 7,
+        "n": 40,
+        "threshold": 0.5
+      }
+    },
+    {
+      "config": "domain_w14_s2_n1.json",
+      "validation": {
+        "auroc": 0.6320346320346321,
+        "average_precision": 0.3471303463914301,
+        "brier": 0.1411424414258733,
+        "balanced_accuracy": 0.5,
+        "sensitivity": 0.0,
+        "specificity": 1.0,
+        "tp": 0,
+        "tn": 33,
+        "fp": 0,
+        "fn": 7,
+        "n": 40,
+        "threshold": 0.5
+      }
+    },
+    {
+      "config": "domain_w30_s1_n0.json",
+      "validation": {
+        "auroc": 0.7626666666666666,
+        "average_precision": 0.6269674331312323,
+        "brier": 0.19359634617342558,
+        "balanced_accuracy": 0.63,
+        "sensitivity": 0.4,
+        "specificity": 0.86,
+        "tp": 12,
+        "tn": 43,
+        "fp": 7,
+        "fn": 18,
+        "n": 80,
+        "threshold": 0.5
+      }
+    },
+    {
+      "config": "domain_w30_s1_n1.json",
+      "validation": {
+        "auroc": 0.75,
+        "average_precision": 0.5802853352992949,
+        "brier": 0.20033564209566262,
+        "balanced_accuracy": 0.5966666666666667,
+        "sensitivity": 0.3333333333333333,
+        "specificity": 0.86,
+        "tp": 10,
+        "tn": 43,
+        "fp": 7,
+        "fn": 20,
+        "n": 80,
+        "threshold": 0.5
+      }
+    },
+    {
+      "config": "domain_w30_s2_n0.json",
+      "validation": {
+        "auroc": 0.6426666666666667,
+        "average_precision": 0.5416339138466063,
+        "brier": 0.2291402278478981,
+        "balanced_accuracy": 0.5666666666666667,
+        "sensitivity": 0.3333333333333333,
+        "specificity": 0.8,
+        "tp": 5,
+        "tn": 20,
+        "fp": 5,
+        "fn": 10,
+        "n": 40,
+        "threshold": 0.5
+      }
+    },
+    {
+      "config": "domain_w30_s2_n1.json",
+      "validation": {
+        "auroc": 0.6213333333333333,
+        "average_precision": 0.5311848151848152,
+        "brier": 0.23863492564705707,
+        "balanced_accuracy": 0.6000000000000001,
+        "sensitivity": 0.4,
+        "specificity": 0.8,
+        "tp": 6,
+        "tn": 20,
+        "fp": 5,
+        "fn": 9,
+        "n": 40,
+        "threshold": 0.5
+      }
+    },
+    {
+      "config": "domain_w7_s1_n0.json",
+      "validation": {
+        "auroc": 0.6853333333333333,
+        "average_precision": 0.11538829591461171,
+        "brier": 0.05955877621662129,
+        "balanced_accuracy": 0.5,
+        "sensitivity": 0.0,
+        "specificity": 1.0,
+        "tp": 0,
+        "tn": 75,
+        "fp": 0,
+        "fn": 5,
+        "n": 80,
+        "threshold": 0.5
+      }
+    },
+    {
+      "config": "domain_w7_s1_n1.json",
+      "validation": {
+        "auroc": 0.672,
+        "average_precision": 0.10721891627464383,
+        "brier": 0.05997240038498598,
+        "balanced_accuracy": 0.5,
+        "sensitivity": 0.0,
+        "specificity": 1.0,
+        "tp": 0,
+        "tn": 75,
+        "fp": 0,
+        "fn": 5,
+        "n": 80,
+        "threshold": 0.5
+      }
+    },
+    {
+      "config": "domain_w7_s2_n0.json",
+      "validation": {
+        "auroc": 0.7027027027027027,
+        "average_precision": 0.49696969696969695,
+        "brier": 0.0653102444480158,
+        "balanced_accuracy": 0.5,
+        "sensitivity": 0.0,
+        "specificity": 1.0,
+        "tp": 0,
+        "tn": 37,
+        "fp": 0,
+        "fn": 3,
+        "n": 40,
+        "threshold": 0.5
+      }
+    },
+    {
+      "config": "domain_w7_s2_n1.json",
+      "validation": {
+        "auroc": 0.7207207207207207,
+        "average_precision": 0.2523809523809524,
+        "brier": 0.06729352009818985,
+        "balanced_accuracy": 0.5,
+        "sensitivity": 0.0,
+        "specificity": 1.0,
+        "tp": 0,
+        "tn": 37,
+        "fp": 0,
+        "fn": 3,
+        "n": 40,
+        "threshold": 0.5
+      }
+    }
+  ]
+}
