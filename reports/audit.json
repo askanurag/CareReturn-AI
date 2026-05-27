@@ -1,0 +1,13 @@
+{
+  "data_sha256": "5d31987e57206710c38e069c538a6a8d3e5dbe86b7007ac1e32bdf68e9fd8fe3",
+  "seed": 42,
+  "python": "3.12.14",
+  "sklearn": "1.8.0",
+  "numpy": "2.3.5",
+  "data_origin": "synthetic",
+  "clinical_validation": false,
+  "pandas": "2.2.3",
+  "scipy": "1.17.0",
+  "joblib": "1.5.3",
+  "notebook_execution": "sequential Python cell execution with captured stdout; not a Jupyter kernel"
+}
