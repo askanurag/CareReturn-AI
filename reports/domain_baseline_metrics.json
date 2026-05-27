@@ -1,0 +1,54 @@
+{
+  "model": "logistic",
+  "provenance": {
+    "data_sha256": "a6d9132832e47ccf7a33a33a9c54dd79d879e3d3a91aaf462c3bfe03e4120678",
+    "seed": 42,
+    "python": "3.12.14",
+    "sklearn": "1.8.0",
+    "numpy": "2.3.5",
+    "data_origin": "synthetic",
+    "clinical_validation": false
+  },
+  "validation": {
+    "auroc": 0.7626666666666666,
+    "average_precision": 0.6269674331312323,
+    "brier": 0.19359634617342558,
+    "balanced_accuracy": 0.7133333333333334,
+    "sensitivity": 0.8666666666666667,
+    "specificity": 0.56,
+    "tp": 26,
+    "tn": 28,
+    "fp": 22,
+    "fn": 4,
+    "n": 80,
+    "threshold": 0.25
+  },
+  "test": {
+    "auroc": 0.7569444444444444,
+    "average_precision": 0.7424146050003213,
+    "brier": 0.20349034908153563,
+    "balanced_accuracy": 0.6641414141414141,
+    "sensitivity": 0.8055555555555556,
+    "specificity": 0.5227272727272727,
+    "tp": 29,
+    "tn": 23,
+    "fp": 21,
+    "fn": 7,
+    "n": 80,
+    "threshold": 0.25
+  },
+  "split_sizes": {
+    "train": 240,
+    "validation": 80,
+    "test": 80
+  },
+  "domain_protocol": {
+    "description": "discharge snapshots and observed follow-up endpoints",
+    "window_size": 30,
+    "stride_size": 1,
+    "unit": "days",
+    "patients": 200,
+    "clinical_validation": false,
+    "data_origin": "synthetic"
+  }
+}
