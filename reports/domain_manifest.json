@@ -1,0 +1,75 @@
+{
+  "files": [
+    {
+      "file": "domain_record_001.csv",
+      "sha256": "c7ef864055c1d86f0bf305f86f56314acd35b3bd87e01f7b097e5d4adb732788",
+      "bytes": 4949
+    },
+    {
+      "file": "domain_record_002.csv",
+      "sha256": "4fe7e66e207eee1e66d6e09d3a209a47c4f3614c2f429b13ff16ded8092162bc",
+      "bytes": 4904
+    },
+    {
+      "file": "domain_record_003.csv",
+      "sha256": "7028bbde59e00cf9ab45c9a41781ef42aff248af7c022f4899619a9a6312306c",
+      "bytes": 4964
+    },
+    {
+      "file": "domain_record_004.csv",
+      "sha256": "ba4b14ddf10a6aa4dee07154505f0c04d1ffe53fe19242271ab10f0c6cddf2e5",
+      "bytes": 4903
+    },
+    {
+      "file": "domain_record_005.csv",
+      "sha256": "f2f792add655a63678758ad2aa25384dc9902162b57e5554f67586e921d0eee0",
+      "bytes": 4812
+    },
+    {
+      "file": "domain_record_006.csv",
+      "sha256": "80efaadab2f28ac392247c1eb3d01aa8a1de1f67bf458596c6c5e3a1e1eeabcf",
+      "bytes": 4925
+    },
+    {
+      "file": "domain_record_007.csv",
+      "sha256": "27045f52ad65706a2533995a2a0e6640a13c39210cf3efbbf51335b6e3852968",
+      "bytes": 4800
+    },
+    {
+      "file": "domain_record_008.csv",
+      "sha256": "c24bf031d8951c77f6b150eb39811f4302fd2eb57d417f8b1d64c195419dd485",
+      "bytes": 4926
+    },
+    {
+      "file": "domain_record_009.csv",
+      "sha256": "3145db9b819bd69e6c956f0d293e4a183a89c1fd6eb1b8945dd67fbdc80bdf2b",
+      "bytes": 4992
+    },
+    {
+      "file": "domain_record_010.csv",
+      "sha256": "38f2921c404ca684804eca3ea76090ec22ad0a236443fe8978c6a056935237d8",
+      "bytes": 4851
+    }
+  ],
+  "metadata": {
+    "task": "discharge snapshots and observed follow-up endpoints",
+    "features": [
+      "age",
+      "length_of_stay",
+      "prior_admissions",
+      "comorbidity_count",
+      "medication_count",
+      "followup_delay"
+    ],
+    "target": "simulated_readmission",
+    "patients": 200,
+    "data_origin": "synthetic",
+    "clinical_validation": false,
+    "created_utc": "2026-10-15T20:04:05.705650+00:00",
+    "limitations": [
+      "no real-patient evaluation",
+      "no external site evaluation",
+      "no clinical operating threshold"
+    ]
+  }
+}
